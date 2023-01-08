@@ -1,0 +1,11 @@
+[package]
+name = "rip8"
+version = "0.1.0"
+edition = "2021"
+authors = ["kirvy810 <kirvy810@gmail.com>"]
+description = "A CHIP-8 emulator"
+
+[dependencies]
+clap = { version = "4.0.32", features = ["derive"] }
+rand = "0.8.5"
+sdl2 = "0.35.2"
